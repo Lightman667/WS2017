@@ -1,0 +1,11 @@
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\bin\Debug\WORLDSKILLS.exe.config
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\bin\Debug\WORLDSKILLS.exe
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\bin\Debug\WORLDSKILLS.pdb
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.csprojAssemblyReference.cache
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.Form1.resources
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.Properties.Resources.resources
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.csproj.GenerateResource.cache
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.csproj.CoreCompileInputs.cache
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.exe
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.pdb
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.OsnovnayaInformaciya1.resources
