@@ -9,3 +9,4 @@ C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.csproj
 C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.exe
 C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.pdb
 C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.OsnovnayaInformaciya1.resources
+C:\Users\Light\source\repos\WORLDSKILLS\WORLDSKILLS\obj\Debug\WORLDSKILLS.Konstruktor.resources

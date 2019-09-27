@@ -66,49 +66,50 @@
             this.label10 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.atelierDataSet = new WORLDSKILLS.AtelierDataSet();
-            this.polzovatelBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.polzovatelTableAdapter = new WORLDSKILLS.AtelierDataSetTableAdapters.PolzovatelTableAdapter();
-            this.tableAdapterManager = new WORLDSKILLS.AtelierDataSetTableAdapters.TableAdapterManager();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.polzovatelBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.polzovatelBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.polzovatelDataGridView = new System.Windows.Forms.DataGridView();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label11 = new System.Windows.Forms.Label();
+            this.polzovatelBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.atelierDataSet = new WORLDSKILLS.AtelierDataSet();
+            this.polzovatelTableAdapter = new WORLDSKILLS.AtelierDataSetTableAdapters.PolzovatelTableAdapter();
+            this.tableAdapterManager = new WORLDSKILLS.AtelierDataSetTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.atelierDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingNavigator)).BeginInit();
             this.polzovatelBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.polzovatelDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atelierDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -131,6 +132,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Избранное";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -546,35 +548,35 @@
             this.groupBox1.Text = "Дополнительные услуги";
             this.groupBox1.Visible = false;
             // 
-            // checkBox7
+            // checkBox13
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(20, 25);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(54, 23);
-            this.checkBox7.TabIndex = 0;
-            this.checkBox7.Text = "SPA";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(247, 80);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(94, 23);
+            this.checkBox13.TabIndex = 8;
+            this.checkBox13.Text = "Трансфер";
+            this.checkBox13.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // checkBox14
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(20, 54);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(52, 23);
-            this.checkBox8.TabIndex = 1;
-            this.checkBox8.Text = "FIT";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(115, 54);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(117, 23);
+            this.checkBox14.TabIndex = 7;
+            this.checkBox14.Text = "Кондиционер";
+            this.checkBox14.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // checkBox15
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(20, 80);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(53, 23);
-            this.checkBox9.TabIndex = 2;
-            this.checkBox9.Text = "VIP";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(247, 25);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(58, 23);
+            this.checkBox15.TabIndex = 6;
+            this.checkBox15.Text = "WiFi";
+            this.checkBox15.UseVisualStyleBackColor = true;
             // 
             // checkBox10
             // 
@@ -606,64 +608,35 @@
             this.checkBox12.Text = "Свадьба";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // checkBox9
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(247, 80);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(94, 23);
-            this.checkBox13.TabIndex = 8;
-            this.checkBox13.Text = "Трансфер";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(20, 80);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(53, 23);
+            this.checkBox9.TabIndex = 2;
+            this.checkBox9.Text = "VIP";
+            this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // checkBox8
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(115, 54);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(117, 23);
-            this.checkBox14.TabIndex = 7;
-            this.checkBox14.Text = "Кондиционер";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(20, 54);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(52, 23);
+            this.checkBox8.TabIndex = 1;
+            this.checkBox8.Text = "FIT";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // checkBox7
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(247, 25);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(58, 23);
-            this.checkBox15.TabIndex = 6;
-            this.checkBox15.Text = "WiFi";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // atelierDataSet
-            // 
-            this.atelierDataSet.DataSetName = "AtelierDataSet";
-            this.atelierDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // polzovatelBindingSource
-            // 
-            this.polzovatelBindingSource.DataMember = "Polzovatel";
-            this.polzovatelBindingSource.DataSource = this.atelierDataSet;
-            // 
-            // polzovatelTableAdapter
-            // 
-            this.polzovatelTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.FurnituraIzdeliyaTableAdapter = null;
-            this.tableAdapterManager.FurnituraTableAdapter = null;
-            this.tableAdapterManager.IzdelieTableAdapter = null;
-            this.tableAdapterManager.PolzovatelTableAdapter = this.polzovatelTableAdapter;
-            this.tableAdapterManager.SkladFurnituryTableAdapter = null;
-            this.tableAdapterManager.SkladTkaniTableAdapter = null;
-            this.tableAdapterManager.TkaniIzdeliyaTableAdapter = null;
-            this.tableAdapterManager.TkanTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = WORLDSKILLS.AtelierDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.ZakazannieIzdeliyaTableAdapter = null;
-            this.tableAdapterManager.ZakazTableAdapter = null;
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(20, 25);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(54, 23);
+            this.checkBox7.TabIndex = 0;
+            this.checkBox7.Text = "SPA";
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // polzovatelBindingNavigator
             // 
@@ -694,6 +667,31 @@
             this.polzovatelBindingNavigator.Size = new System.Drawing.Size(562, 25);
             this.polzovatelBindingNavigator.TabIndex = 37;
             this.polzovatelBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 22);
+            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -727,16 +725,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 22);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -759,26 +750,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
             // 
             // polzovatelBindingNavigatorSaveItem
             // 
@@ -805,6 +778,29 @@
             this.polzovatelDataGridView.TabIndex = 37;
             this.polzovatelDataGridView.Visible = false;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(192, 222);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(188, 23);
+            this.label11.TabIndex = 38;
+            this.label11.Text = "Результаты поиска";
+            this.label11.Visible = false;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.button7.Location = new System.Drawing.Point(393, 41);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(113, 64);
+            this.button7.TabIndex = 39;
+            this.button7.Text = "Конструктор";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "Login";
@@ -829,17 +825,34 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "Naimenovanie";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
-            // label11
+            // polzovatelBindingSource
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.Control;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(192, 222);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(188, 23);
-            this.label11.TabIndex = 38;
-            this.label11.Text = "Результаты поиска";
-            this.label11.Visible = false;
+            this.polzovatelBindingSource.DataMember = "Polzovatel";
+            this.polzovatelBindingSource.DataSource = this.atelierDataSet;
+            // 
+            // atelierDataSet
+            // 
+            this.atelierDataSet.DataSetName = "AtelierDataSet";
+            this.atelierDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // polzovatelTableAdapter
+            // 
+            this.polzovatelTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.FurnituraIzdeliyaTableAdapter = null;
+            this.tableAdapterManager.FurnituraTableAdapter = null;
+            this.tableAdapterManager.IzdelieTableAdapter = null;
+            this.tableAdapterManager.PolzovatelTableAdapter = this.polzovatelTableAdapter;
+            this.tableAdapterManager.SkladFurnituryTableAdapter = null;
+            this.tableAdapterManager.SkladTkaniTableAdapter = null;
+            this.tableAdapterManager.TkaniIzdeliyaTableAdapter = null;
+            this.tableAdapterManager.TkanTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = WORLDSKILLS.AtelierDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.ZakazannieIzdeliyaTableAdapter = null;
+            this.tableAdapterManager.ZakazTableAdapter = null;
             // 
             // Form1
             // 
@@ -847,6 +860,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(562, 537);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.polzovatelDataGridView);
             this.Controls.Add(this.polzovatelBindingNavigator);
@@ -897,12 +911,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.atelierDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingNavigator)).EndInit();
             this.polzovatelBindingNavigator.ResumeLayout(false);
             this.polzovatelBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.polzovatelDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.polzovatelBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atelierDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -978,6 +992,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button7;
     }
 }
 

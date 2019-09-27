@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace WORLDSKILLS
 {
@@ -77,6 +79,16 @@ namespace WORLDSKILLS
         private void button1_Click(object sender, EventArgs e)
         {
 
+            string connectionString = @"Data Source=LIGHT-ПК\SQLEXPRESS;Initial Catalog=Atelier;Integrated Security=True"; 
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                var cmd = new SqlCommand("insert into Polzovatel(Login, Parol, Rol, Naimenovanie) values('Igfgfgfogr', '12g3a', 'Menedzher', 'loh')", conn);
+                var reader = cmd.ExecuteReader();
+                polzovatelTableAdapter.Fill(atelierDataSet.Polzovatel);
+                conn.Close();
+            }
+                
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -296,6 +308,26 @@ namespace WORLDSKILLS
             // TODO: данная строка кода позволяет загрузить данные в таблицу "atelierDataSet.Polzovatel". При необходимости она может быть перемещена или удалена.
             this.polzovatelTableAdapter.Fill(this.atelierDataSet.Polzovatel);
 
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            Konstruktor f = new Konstruktor();
+            f.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string connectionString = @"Data Source=LIGHT-ПК\SQLEXPRESS;Initial Catalog=Atelier;Integrated Security=True";
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                var cmd = new SqlCommand("delete from Polzovatel where rol = 'menedzher'", conn);
+                var reader = cmd.ExecuteReader();
+                polzovatelTableAdapter.Fill(atelierDataSet.Polzovatel);
+                conn.Close();
+            }
         }
     }
 }
